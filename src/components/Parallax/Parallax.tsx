@@ -1,4 +1,3 @@
-import React from "react";
 import styles from './Parallax.module.css';
 import foregroundImage from '../../assets/images/kinjazForeground.png'
 import useParallax from "../../hooks/parallaxHook";

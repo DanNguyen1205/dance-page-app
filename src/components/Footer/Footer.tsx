@@ -1,4 +1,3 @@
-import React from 'react'
 import styles from './Footer.module.css'; // Your CSS Module for styling
 // import PrimeComponents from '../../common/PrimeReactComponents';
 

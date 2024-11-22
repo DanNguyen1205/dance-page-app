@@ -1,4 +1,4 @@
-import React, { useRef, useState } from 'react';
+import { useRef, useState } from 'react';
 import PrimeComponents from '../../common/PrimeReactComponents';
 import { Toast } from 'primereact/toast';
 import styles from './News.module.css';

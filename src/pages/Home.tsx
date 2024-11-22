@@ -1,4 +1,3 @@
-import React from 'react'
 import Video from '../components/Video/Video'
 import Parallax from '../components/Parallax/Parallax'
 import Calendar from '../components/Calendar/Calendar'

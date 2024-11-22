@@ -1,4 +1,3 @@
-import React from 'react'
 import styles from "./Video.module.css"
 import videoFile from "../../assets/videos/FranklinYu.mp4"
 import useParallax from '../../hooks/parallaxHook'

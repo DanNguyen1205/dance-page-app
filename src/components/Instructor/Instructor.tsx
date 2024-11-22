@@ -1,4 +1,3 @@
-import React from 'react'
 import styles from './Instructor.module.css'
 import frankImage from '../../assets/images/frank.png'; // Import the image
 import useMouseSwaying from '../../hooks/mouseSwayHook';
@@ -7,10 +6,9 @@ import useMouseSwaying from '../../hooks/mouseSwayHook';
 interface InstructorsProps {
     name: string;
     bio: string;
-    imageUrl: string;
 }
 
-const Instructor = ({name, bio, imageUrl}: InstructorsProps) => {
+const Instructor = ({name, bio}: InstructorsProps) => {
   const { rotateX, rotateY, handleMouseMove, handleMouseLeave } = useMouseSwaying();
 
   return (

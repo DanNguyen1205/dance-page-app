@@ -1,4 +1,3 @@
-import React from 'react'
 import PrimeComponents from '../../common/PrimeReactComponents'
 import styles from './Carousel.module.css'
 

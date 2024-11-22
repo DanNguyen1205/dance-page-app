@@ -1,4 +1,3 @@
-import React from 'react';
 import { Button } from "primereact/button";
 import "primeicons/primeicons.css";
 import styles from "./Navbar.module.css"; // Import CSS module properly

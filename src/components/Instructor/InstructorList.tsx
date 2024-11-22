@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import Instructor from './Instructor';
 import styles from './InstructorList.module.css';
 
@@ -105,7 +105,6 @@ const InstructorList = () => {
             key={index}
             name={instructor.name}
             bio={instructor.bio}
-            imageUrl={instructor.imageUrl}
           />
         ))}
       </div>
