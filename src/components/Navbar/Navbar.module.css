@@ -1,0 +1,64 @@
+.nav {
+    width: 100%;
+    position: fixed;
+    top:5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: '2rem';
+    background-color: transparent;
+    color: #ffffff;
+    padding-left: 20px;
+    padding-right: 20px;
+    z-index: 100000000000;
+}
+
+/* Default navbar-menu styling */
+.navbarMenu {
+    display: flex;
+    gap: 1rem;
+}
+
+/* Hide the navbar menu initially on smaller screens */
+@media (max-width: 767px) {
+    .nav{
+        top:2%;
+        flex-direction: row-reverse;
+    }
+
+    .navbarMenu {
+        display: none; /* Hide menu by default on mobile */
+        flex-direction: column;
+        position: absolute;
+        top: 7%;
+        right: 1rem;
+        background-color: #82c0ed;
+        padding: 1rem;
+        gap: 1rem;
+        border-radius: 8px;
+        z-index: 1000;
+    }
+
+    .sidebarDisplay {
+        display: flex;
+        gap: 10px;
+    }
+}
+
+/* Show menu in a row on larger screens and hide burger icon */
+@media (min-width: 768px) {
+    .navbarMenu {
+        display: flex !important;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        flex-direction: row;
+        position: static;
+        background: none;
+        padding: 0;
+    }
+
+    .sidebarDisplay {
+        display: none;
+    }
+}

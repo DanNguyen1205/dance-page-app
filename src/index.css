@@ -1,0 +1,30 @@
+/* index.css */
+
+/* PrimeReact theme CSS (choose only one theme) */
+@import "primereact/resources/themes/saga-blue/theme.css"; /* Saga Blue Theme */
+
+/* PrimeReact core CSS */
+@import "primereact/resources/primereact.min.css";
+
+/* PrimeIcons for icon support */
+@import "primeicons/primeicons.css";
+
+/* Add any global CSS resets or custom global styles here */
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}

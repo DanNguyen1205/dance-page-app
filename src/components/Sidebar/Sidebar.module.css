@@ -1,0 +1,17 @@
+.sidebarContainer {
+    display: flex; /* Hide menu by default on mobile */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    z-index: 1000;
+    width: 100%;
+}
+
+.sidebarMenuButton {
+    width: 100%;
+}
+    
+
+
+  

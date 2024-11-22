@@ -1,0 +1,49 @@
+/* SliderComponent.module.css */
+
+.sliderContainer {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 100vh; /* Ensure it takes the full height of the viewport */
+    flex-direction: column; /* Stack the items in a column */
+  }
+  
+  .sliderItem {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .sliderImage {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    margin-bottom: 20px;
+  }
+  
+  .sliderContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .sliderContent h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .sliderContent p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+  }
+  
+  .sliderContent .p-button {
+    margin-top: 10px;
+  }
+  

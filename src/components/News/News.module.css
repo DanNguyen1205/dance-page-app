@@ -1,0 +1,49 @@
+/* src/components/Newsletter.module.css */
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.card {
+    width: 100%;
+    max-width: 500px;
+    padding: 1.5rem;
+    text-align: center;
+}
+
+.description {
+    margin-bottom: 1.5rem;
+    color: #666;
+}
+
+.inputContainer {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.input {
+    width: 70%;
+}
+
+.carouselWrapper {
+    width: 50%;
+}
+
+/* Media Query for Small Screens */
+@media (max-width: 768px) {
+    .container {
+      flex-direction: column; /* Change to column on smaller screens */
+      align-items: center;
+    }
+  
+  
+    .carouselWrapper {
+      margin-bottom: 1rem;
+    }
+  }

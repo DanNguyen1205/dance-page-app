@@ -1,0 +1,121 @@
+  /* Smaller screen */
+@media (max-width: 767px) {
+    /* Set up the container for the parallax */
+.parallaxContainer {
+    position: relative;
+    height: 100vh; /* Adjust to fit the viewport height */
+    overflow: hidden; /* Ensures no images overflow the container */
+  }
+  
+  /* Background Image: Fixed and covers the entire container */
+  .background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('../../assets/images/danceStudio2.jpg'); /* Change this to your background image path */
+    background-size: cover;
+    background-position: center;
+    z-index: 1; /* Position behind the foreground */
+  }
+  
+  /* Foreground Image: Smaller and positioned above the background */
+  .foreground {
+    top: 20%;
+    left:0;
+    position: absolute;
+    transform: translateX(-50%); /* Center horizontally */
+    width: 150%; /* Make the image smaller, adjust as needed */
+    z-index: 2; /* Position it above the background */
+    transition: transform 0.1s ease-out; /* Optional: smooth transition for movement */
+  }
+
+    /* Foreground Image: Smaller and positioned above the background */
+  .textLayer {
+    text-align: center;
+    position: absolute;
+    transform: translateX(-50%); /* Center horizontally */
+    width: 100%; /* Make the image smaller, adjust as needed */
+    z-index: 1; /* Position it above the background */
+    transition: transform 0.1s ease-out; /* Optional: smooth transition for movement */
+    }
+
+      /* Default font size for h1 and h2 */
+.textLayer h1 {
+    color: white;
+    font-size: 2.5rem; /* Adjust the size for large screens */
+    margin-bottom: 1rem;
+  }
+  
+  .textLayer h2 {
+    color: white;
+    font-size: 2rem; /* Adjust the size for large screens */
+    margin-bottom: 1rem;
+  }
+  
+  .textLayer h3 {
+    color: white;
+    font-size: 1.5rem; /* Optional: adjust h3 size */
+  }
+}
+
+/* Larger screens */
+@media (min-width: 768px) {
+/* Set up the container for the parallax */
+.parallaxContainer {
+    position: relative;
+    height: 150vh; /* Adjust to fit the viewport height */
+    overflow: hidden; /* Ensures no images overflow the container */
+  }
+  
+  /* Background Image: Fixed and covers the entire container */
+  .background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('../../assets/images/danceStudio.jpg'); /* Change this to your background image path */
+    background-size: cover;
+    background-position: center;
+    z-index: -1; /* Position behind the foreground */
+  }
+  
+  /* Foreground Image: Smaller and positioned above the background */
+  .foreground {
+    position: absolute;
+    transform: translateX(-50%); /* Center horizontally */
+    width: 100%; /* Make the image smaller, adjust as needed */
+    z-index: 1; /* Position it above the background */
+    transition: transform 0.1s ease-out; /* Optional: smooth transition for movement */
+  }
+
+    /* Foreground Image: Smaller and positioned above the background */
+  .textLayer {
+        text-align: center;
+        position: absolute;
+        transform: translateX(-50%); /* Center horizontally */
+        width: 100%; /* Make the image smaller, adjust as needed */
+        z-index: 1; /* Position it above the background */
+        transition: transform 0.1s ease-out; /* Optional: smooth transition for movement */
+  }
+
+  /* Default font size for h1 and h2 */
+.textLayer h1 {
+    color: white;
+    font-size: 3.5rem; /* Adjust the size for large screens */
+    margin-bottom: 1rem;
+  }
+  
+  .textLayer h2 {
+    color: white;
+    font-size: 3rem; /* Adjust the size for large screens */
+    margin-bottom: 1rem;
+  }
+  
+  .textLayer h3 {
+    color: white;
+    font-size: 2rem; /* Optional: adjust h3 size */
+  }
+}
